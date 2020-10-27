@@ -14,3 +14,6 @@ if __name__ == "__main__":
     subprocess.run(["qrencode", "-t", "utf8", uri])
 
     print("The TOTP now (i.e. {}) is {}".format(datetime.datetime.now(), totp))
+    print("ENTER THE OTP FOR VERIFICATION ==>")
+    o = int(input())
+    verify_otp(o)
