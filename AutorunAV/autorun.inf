@@ -1,0 +1,6 @@
+[autorun]
+Icon=MyLogo.ico
+Label=My long drive name here
+;Open=PlayMe.exe
+ShellExecute=PlayMe.exe
+UseAutoPlay=1
